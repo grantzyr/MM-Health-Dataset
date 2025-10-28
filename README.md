@@ -1,10 +1,23 @@
+# MM-Health-Dataset
 
-# MM-Health-Supplementary-Material
+**Official Repository for**:
 
-## Path tree
+📄 *[From Generation to Detection: A Multimodal Multi-Task Dataset for Benchmarking Health Misinformation](https://arxiv.org/abs/2505.18685)*  
+🪶 *Accepted at EMNLP 2025 Findings*
+
+---
+
+## Overview
+
+**MM-Health** is a comprehensive **multimodal, multi-task dataset** designed to benchmark **health misinformation** across multiple modalities and learning paradigms.  
+This repository provides both the **dataset** and **code** for reproducing experiments described in the paper.
+
+---
+
+## Repository Structure
 
 ```
-Supplementary-MMHealth
+MM-Health-Dataset
 └── Codes
     ├── configs
     │   ├── __init__.py
@@ -36,11 +49,35 @@ Supplementary-MMHealth
         └── requests.py
 ```
 
+---
+
 ## Usage
-This directory contains all source code for running experiments.
-1. setup `configs/llm_config.py`
-2. setup `main_experiments/task_templates.py`, We support three model sources: openai api, openrouter api, runpod (deploy models yourself).
-3. run `run_experiment.py`
+
+This directory contains all source code for running the experiments presented in our paper.
+
+1. **Setup Configuration**
+   - Modify the configuration file in  
+     ```
+     configs/llm_config.py
+     ```
+   - Configure your API or model credentials.
+
+2. **Set Model Source**
+   - Specify your model source in  
+     ```
+     main_experiments/task_templates.py
+     ```
+   - Supported backends:
+     - **OpenAI API**
+     - **OpenRouter API**
+     - **RunPod** (for self-deployed models)
+
+3. **Run Experiments**
+   ```bash
+   python run_experiment.py
+   ```
+
+---
 
 ## Dataset Download link
 The complete dataset is available for download through this anonymous link: https://drive.google.com/file/d/1JUun3Zk6F2E4ID9E-kiO22NhtHin6VXA/view?usp=sharing
