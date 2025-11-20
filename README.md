@@ -412,6 +412,7 @@ We thank the creators of these datasets for making their data available for rese
 
 ## 📄 License
 
-This dataset is released for **research purposes only**. Please refer to individual source datasets for specific licensing terms.
+- This dataset is released for **research purposes under CC BY-NC 4.0**.
+- The experiemntal code is released under **MIT License**.
 
 ---
