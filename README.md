@@ -359,7 +359,7 @@ If you use MM-Health in your research, please cite:
 ## 👥 Authors
 
 **Equal Contributors:**
-- [Zhihao Zhang](https://github.com/grantzyr) - Macquarie University
+- Zhihao Zhang - Macquarie University
 - Yiran Zhang - Macquarie University
 
 **Co-authors:**
@@ -367,7 +367,7 @@ If you use MM-Health in your research, please cite:
 - Liting Huang - University of Technology Sydney
 - Imran Razzak - MBZUAI
 - Preslav Nakov - MBZUAI
-- [Usman Naseem](mailto:usman.naseem@mq.edu.au) - Macquarie University (Corresponding Author)
+- Usman Naseem - Macquarie University (Corresponding Author)
 
 ---
 
@@ -396,6 +396,6 @@ We thank the creators of these datasets for making their data available for rese
 ## 📄 License
 
 - This dataset is released for **research purposes under CC BY-NC 4.0**.
-- The experiemntal code is released under **MIT License**.
+- The experimental code is released under **MIT License**.
 
 ---
