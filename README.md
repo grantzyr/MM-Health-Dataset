@@ -14,23 +14,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Dataset Statistics](#dataset-statistics)
-- [Tasks](#tasks)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Repository Structure](#repository-structure)
-- [Experiments](#experiments)
-- [Dataset Download](#dataset-download)
-- [Benchmark Results](#benchmark-results)
-- [Citation](#citation)
-- [Contact](#contact)
-
----
-
 ## 🎯 Overview
 
 **MM-Health** is a comprehensive **multimodal, multi-task dataset** designed to benchmark **health misinformation detection** in the era of generative AI. The dataset addresses critical gaps in existing health misinformation datasets:
