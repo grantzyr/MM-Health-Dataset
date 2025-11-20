@@ -1,0 +1,29 @@
+# Core dependencies
+openai>=1.0.0
+anthropic>=0.7.0
+pillow>=10.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Deep learning
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Image processing
+opencv-python>=4.8.0
+
+# API and async
+aiohttp>=3.8.0
+requests>=2.31.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Data handling
+datasets>=2.14.0
+huggingface-hub>=0.16.0
+
+# Evaluation
+scikit-learn>=1.3.0
