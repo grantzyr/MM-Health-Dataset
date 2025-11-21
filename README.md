@@ -306,39 +306,6 @@ Each sample contains:
 
 ---
 
-## 📈 Benchmark Results
-
-### Task 1: Information Reliability Check (F1 Scores)
-
-| Model | Reliable (Text+Image, Human) | Unreliable (Text+Image, Human) |
-|-------|---------------------------|------------------------------|
-| GPT-4o (Zero-shot) | 0.499 | 0.371 |
-| GPT-4o Mini (Zero-shot) | 0.499 | 0.353 |
-| Llama-3.2-V (Zero-shot) | 0.500 | 0.312 |
-| LLaVA-1.6 (Five-shot) | 0.499 | 0.373 |
-| Qwen2-VL (Zero-shot) | 0.500 | 0.085 |
-
-### Task 2: Information Originality Check (F1 Scores)
-
-| Model | Human (Zero-shot) | AI (Zero-shot) |
-|-------|------------------|----------------|
-| GPT-4o | 0.234 | 0.155 |
-| GPT-4o Mini | 0.304 | 0.119 |
-| Llama-3.2-V | 0.140 | 0.188 |
-| Qwen2-VL | 0.137 | 0.271 |
-
-### Key Findings
-
-⚠️ **Current VLLMs struggle significantly:**
-- Strong bias toward classifying content as "reliable"
-- Poor performance on unreliable content detection (F1 < 0.4)
-- Extremely low originality detection (F1 < 0.3)
-- Fine-grained AI detection remains very challenging (F1 ≈ 0.2)
-
-These results highlight the **urgent need for better detection methods** in the age of generative AI.
-
----
-
 ## 📝 Citation
 
 If you use MM-Health in your research, please cite:
@@ -351,8 +318,6 @@ If you use MM-Health in your research, please cite:
   year={2025}
 }
 ```
-
-**Paper**: [arXiv:2505.18685](https://arxiv.org/abs/2505.18685)
 
 ---
 
